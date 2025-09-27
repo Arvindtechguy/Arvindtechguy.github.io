@@ -1,0 +1,20 @@
+body { margin: 0; font-family: 'Inter', Arial, sans-serif; background: #1b1515fa; color: #f3f4f6; }
+header { background: linear-gradient(90deg, #262d3f 0%, #7a2f2f 100%); color: #fff; padding: 60px 0 40px 0; text-align: center; box-shadow: 0 4px 24px #312e8144; }
+header h1 { font-size: 3rem; margin: 0; letter-spacing: 0.05em; text-shadow: 0 2px 16px #6366f1; }
+header p { font-size: 1.3rem; margin-top: 10px; color: #a5b4fc; }
+nav { background: #000000; box-shadow: 0 2px 8px #6366f122; padding: 14px 0; text-align: center; }
+nav a { color: #a5b4fc; margin: 0 20px; text-decoration: none; font-weight: 600; font-size: 1.1rem; transition: color 0.2s; }
+nav a:hover { color: #f472b6; }
+section { max-width: 900px; margin: 40px auto; background: #23232b; padding: 32px; border-radius: 12px; box-shadow: 0 2px 16px #6366f122; }
+h2 { color: #f47272; margin-top: 0; }
+.announcements ul, .projects ul { padding-left: 20px; }
+.team { display: flex; gap: 30px; flex-wrap: wrap; margin-top: 20px; }
+.member { flex: 1 1 220px; background: #18181b; padding: 20px; border-radius: 10px; text-align: center; box-shadow: 0 2px 8px #6366f122; }
+.member h3 { margin: 0 0 8px 0; color: #ffffff; }
+.member p { margin: 0; color: #f3f4f6; }
+.member .designation { color: #72f4d8; font-weight: bold; }
+.member .hobby { color: #969faa; font-style: italic; }
+footer { background: #23232b; color: #a5b4fc; text-align: center; padding: 24px 0; margin-top: 40px; font-size: 1rem; }
+.hero-3d { font-size: 3.5rem; font-weight: bold; color: #fff; letter-spacing: 0.1em; text-shadow: 0 1px 0 #6366f1, 0 2px 0 #312e81, 0 0 16px #f472b6; transform: perspective(600px) rotateY(-10deg) scale(1.1); animation: spinLogo 6s cubic-bezier(.68,-0.55,.27,1.55) infinite; background: linear-gradient(90deg, #f472b6 0%, #6366f1 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+@keyframes spinLogo { 0% { transform: rotateY(0deg) scale(1); } 30% { transform: rotateY(20deg) scale(1.1);} 50% { transform: rotateY(180deg) scale(1);} 70% { transform: rotateY(340deg) scale(1.1);} 100% { transform: rotateY(360deg) scale(1);} }
+.contact a { color: #f472b6; text-decoration: underline; }
